@@ -15,25 +15,34 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
+	
+	<form action="http://webster.cs.washington.edu/params.php" method="get">
 		<dl>
+
 			<dt>Name</dt>
 			<dd>
-				???
+				<input type="text" name="name" placeholder="First name" required="true" size="10" maxlength="20">
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
-				???
+				<select name="section">
+					<option value="CSE">CSE</option>
+					<option value="ICE">ICE</option>
+					<option value="SOL">SOL</option>
+				</select>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				???
+				<input type="text" name="credit_card_number" size="10" maxlength="20"><br/>
+				<input type="radio" name="credit_card" value="visa">Visa <input type="radio" name="credit_card" value="MasterCard">MasterCard<br/>
 			</dd>
 		</dl>
-		
+
 		<div>
-			I am a giant sucker.
+			<input type="submit" name="submit" value="I am a giant sucker.">
 		</div>
+	</form>
 	</body>
 </html>
