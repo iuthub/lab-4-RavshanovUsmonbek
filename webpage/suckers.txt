@@ -1,1 +1,1 @@
-Aziz;ICE;783372;MasterCard<br/>Aziz;ICE;783372;MasterCard<br/>Aziz;ICE;783372;MasterCard<br/>Aziz;ICE;783372;MasterCard<br/>
+Aziz;CSE;66677;MasterCard<br/>Usmonbek;CSE;23498;Visa<br/>Sardor;ICE;999999;MasterCard<br/>

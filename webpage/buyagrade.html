@@ -21,12 +21,13 @@
 
 			<dt>Name</dt>
 			<dd>
-				<input type="text" name="name" placeholder="First name" required="true" size="10" maxlength="20">
+				<input type="text" name="name" placeholder="First name">
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
 				<select name="section">
+					<option value="" selected>Empty</option>
 					<option value="CSE">CSE</option>
 					<option value="ICE">ICE</option>
 					<option value="SOL">SOL</option>
@@ -36,7 +37,7 @@
 			<dt>Credit Card</dt>
 			<dd>
 				<input type="text" name="credit_card_number" size="10" maxlength="20"><br/>
-				<input type="radio" name="credit_card" value="visa" checked>Visa <input type="radio" name="credit_card" value="MasterCard">MasterCard<br/>
+				<input type="radio" name="credit_card_type" value="Visa">Visa <input type="radio" name="credit_card_type" value="MasterCard">MasterCard<br/>
 			</dd>
 		</dl>
 
